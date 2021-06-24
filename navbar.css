@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    background-color: #CDCDFF;
+}
+.headerspan{
+    display: flex;
+    background-color: #55556A;
+    height: 40px;
+    color: red;
+    justify-content: middle;
+    align-items: center;
+
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+   color: white; 
+   font-family: 'Anton', sans-serif;
+   background-color: #55556A;
+   font-size: 20px;
+}
+.navbtn:hover{
+    cursor: pointer;
+  background-color: #37373E;
+  padding-bottom: 10px;
+  color: #00ffbf;
+}
+#homebtn{
+    position: absolute;
+    right: 25%;
+}
+#gpsbtn{
+    position: absolute;
+    right: 15%;
+}
+
+#aboutbtn{
+    position: absolute;
+    right: 7%;
+}
+#logo{
+    font-size: 25px;
+    margin-left: 50px;
+}
+#logo:hover{
+    cursor: pointer;
+    color: #00ffbf;
+}
+#warning{
+    text-align: center;
+    background-color: transparent;
+    color: red;
+    font-size: 25px;
+     
+}
+h1{
+    color: black; 
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#doc{
+    background-color: transparent;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    box-shadow: 4px 4px 4px black;
+}
+#docdiv{
+    width: 350px;
+    height: 30px;
+    position: absolute;
+    right: 40%;
+    top: 15%;
+    transform: translateX(10%);
+    text-overflow: ellipsis;
+}
+#doc:hover{
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px black;
+}
+#footer{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+}

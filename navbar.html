@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./navbar.css">
+
+   
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+
+    </head>
+    <body>
+        <header>
+            <span class="headerspan">
+                <p id='logo'>NavBarProject</p>
+                <p class="navbtn" id='homebtn'>Home</p>
+                <p class="navbtn" id='gpsbtn'>LocateME</p>
+                <p class="navbtn" id='aboutbtn'>Docs</p>
+        </span>
+        </header>
+        
+        
+        <div id='map' style='width: 80%px; height: 550px;'></div>
+       <p id='warning'></p>
+        
+        
+        <script  src="./locateme.js"></script>
+    </body>
+</html>
