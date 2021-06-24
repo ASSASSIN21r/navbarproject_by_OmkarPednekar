@@ -18,10 +18,10 @@ logobtn.addEventListener('click',function(){
 })
 mapboxgl.accessToken = 'pk.eyJ1IjoiYXNzYXNzaW4yMXIiLCJhIjoiY2txYXRvYWVzMTMyczJub3dzbTg5YTU4eCJ9.XJ8uZswi7D-pJDyk97Auig';
 var map = new mapboxgl.Map({
-container: 'map', // container ID
-style: 'mapbox://styles/mapbox/streets-v11', // style URL
-center: [78.962883,20.593683],
-zoom: 3 // starting zoom
+container: 'map', 
+style: 'mapbox://styles/mapbox/streets-v11', 
+center: [78.962883,20.593683],//coord of home page i.e INDIA 
+zoom: 3 
 });
 
 gpsbutton.addEventListener('click',function getLocation() {
@@ -33,10 +33,10 @@ gpsbutton.addEventListener('click',function getLocation() {
            var lng = position.coords.longitude 
            mapboxgl.accessToken = 'pk.eyJ1IjoiYXNzYXNzaW4yMXIiLCJhIjoiY2txYXRvYWVzMTMyczJub3dzbTg5YTU4eCJ9.XJ8uZswi7D-pJDyk97Auig';
            var map = new mapboxgl.Map({
-           container: 'map', // container ID
-           style: 'mapbox://styles/mapbox/streets-v11', // style URL
+           container: 'map', 
+           style: 'mapbox://styles/mapbox/streets-v11', 
            center: [lng,lat],
-           zoom: 14 // starting zoom
+           zoom: 14 // 
            });
         });
     
