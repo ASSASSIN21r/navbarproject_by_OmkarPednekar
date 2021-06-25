@@ -19,6 +19,7 @@ logobtn.addEventListener('click',function(){
 })
 homebutton.addEventListener('click',function(){
     window.location='/navbar.html'
+    
 })
 mapboxgl.accessToken = 'pk.eyJ1IjoiYXNzYXNzaW4yMXIiLCJhIjoiY2txYXRvYWVzMTMyczJub3dzbTg5YTU4eCJ9.XJ8uZswi7D-pJDyk97Auig';
 var map = new mapboxgl.Map({
@@ -561,8 +562,8 @@ else if(cityname=="jabalpur"){
     }})
    
 }
-else{
- warning.innerHTML="error"
+else if(search.value==""){
+ alert('error')
 }
 
 
